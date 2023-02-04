@@ -3,8 +3,6 @@ Description=Phoniebox Buttons USB Encoder Service
 After=network.target iptables.service firewalld.service
 
 [Service]
-User=pi
-Group=pi
 Restart=always
 RestartSec=10
 WorkingDirectory=/home/pi/RPi-Jukebox-RFID
